@@ -1,4 +1,4 @@
-##########long solution
+#long solution
 c0 = int(input('Enter a non- negative, non-zero integer: '))
 step = 0
 while c0 != 1:
@@ -20,7 +20,9 @@ while c0 != 1:
             continue
 
 print('Total Steps: ', step)
-######################################################anothoer sol
+
+######################################################
+#anothoer sol
 #As Nearoo mentioned, c0 % 2 is the same as c0 % 2 != 0 because 1 (when c0 is odd, 'c0 % 2' is 1) has a boolean value of True.
 
 #Here's the correct solution:
